@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=devide-width" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+    <link rel="stylesheet" href="utils.css" />
+  </head>
+  <body>
+    
+    <div class="main">
+        <input type="text" pattern="^[0-9]*$" inputmode="numeric" id="inputm"/>
+      <div class="container flex">
+        
+        <div class="row">
+          <button class="digits">AC</button>
+          <button class="digits red">x</button>
+          <button class="digits">%</button>
+          <button class="digits orange">÷</button>
+        </div>
+        <div class="row">
+          <button class="digits">7</button>
+          <button class="digits">8</button>
+          <button class="digits">9</button>
+          <button class="digits orange">X</button>
+        </div>
+        <div class="row">
+          <button class="digits">4</button>
+          <button class="digits">5</button>
+          <button class="digits">6</button>
+          <button class="digits orange">-</button>
+        </div>
+        <div class="row">
+          <button class="digits">1</button>
+          <button class="digits">2</button>
+          <button class="digits">3</button>
+          <button class="digits orange">+</button>
+        </div>
+        <div class="row">
+          <button class="digits" id="double">0</button>
+          <button class="digits">.</button>
+          <button class="digits">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font: 125px;
+}
+.main{
+    margin: 100px;
+}
+
+.container{ 
+    border: 2px solid black;
+    background-color: rgb(23, 23, 22);
+    display: inline-block;
+    text-align: center; 
+    margin-left: 45%;
+    padding: 5px;
+    /* text-align: center; */
+}
+.digits{
+    padding: 14px;
+    border-radius: 50%;
+    background-color: #EAE3DB;
+    border-color: black;
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+}
+.row{
+    margin: 3px;
+    background-color:#252D44;
+}
+input{
+    padding: 11px 40px;
+    border: none;
+    color: white;
+    background-color: rgb(29, 27, 25);
+    margin-top: 50px;
+    /* direction: rtl;
+    caret-color: transparent; */
+}
+#inputm{
+    margin-top: 10px;
+    margin-left: 557px;
+    margin-bottom: 10px;
+    width: 256px;
+    height: 62px;
+    background-color: #181F32;
+}  
+#double{
+    width: 106px;
+    border-radius: 30px;
+    text-align: left;
+}
+
